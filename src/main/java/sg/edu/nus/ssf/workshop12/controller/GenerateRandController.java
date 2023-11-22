@@ -76,8 +76,8 @@ public class GenerateRandController {
         m.addAttribute("noOfGenerateNo", noOfGenerateNo);
         m.addAttribute("selectedImgs", selectedImgs);
         System.out.println(" >>> " + selectedImgs);
-        Collections.sort(selectedImgs);
-        m.addAttribute("sortedSelectedImgs", selectedImgs);
+        //Collections.sort(selectedImgs);
+        //m.addAttribute("sortedSelectedImgs", selectedImgs);
         
 
     }
